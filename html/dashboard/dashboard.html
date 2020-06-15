@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>IndieFund</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="../../css/sample.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+
+    <link href="dashboard.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="container">
+
+        <header class="blog-header py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-6 text-left">
+                    <a class="blog-header-logo text-dark" href="#">IndieFund</a>        
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <a class="text-muted" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+                    </a>
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Log Out</a>
+                </div>
+            </div>
+        </header>
+
+        <div class = "row my-3">
+            <div class = "col-12">
+                <p class = "mb-0 title">User Dashboard</p>
+            </div>
+        </div>
+
+        <div class = "row my-3">
+            <div class = "col">
+                <div class = "card p-3">
+                    <label>Project Funding</label>
+                    <p class = "value mb-0">$40,000.00</p>
+                </div>
+            </div>
+            <div class = "col">
+                <div class = "card p-3">
+                    <label>Funding Required</label>
+                    <p class = "value mb-0">$5,500.00</p>
+                </div>
+            </div>
+            <div class = "col">
+                <div class = "card p-3">
+                    <label>Project Progress</label>
+                    <p class = "value mb-0">73%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "row my-3">
+            <div class = "col-12">
+                <div class = "card p-3">
+                    <label class ="mb-4">Equipment Suggestion</label>
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Purpose</th>
+                                <th scope="col">Price</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Sony VENICE Camera</td>
+                                <td>Filmming</td>
+                                <td>$24,000.00</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Philipps Lighting Set</td>
+                                <td>Lighting</td>
+                                <td>$950.00</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Canon 45 Edrop</td>
+                                <td>Sound</td>
+                                <td>$12,000.00</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                </div>
+            </div>
+          </div>
+        <div class="row mb-3">
+            <div class="col-7">
+                <div class="card p-3">
+                    <label class="mb-4">Top Contributors</label>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Currency</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark Otto</td>
+                                <td>$12,000</td>
+                                <td>USD</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob Borr</td>
+                                <td>$1500</td>
+                                <td>USDt</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry Bid</td>
+                                <td>$1200</td>
+                                <td>USD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class = "col-5">
+                <div class="card p-3">
+                    <label class="mb-4">Create Update</label>
+                    <form>
+                        <div class="form-group">
+                            <small>Title</small>
+                            <input type="email" class="form-control" placeholder="">
+                        </div> <!-- form-group end.// -->
+                    
+                        <div class="form-group">
+                            <small>Message</small>
+                            <textarea class="form-control"></textarea>
+                        </div> <!-- form-group end.// -->
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block"> Create Post </button>
+                        </div> <!-- form-group// -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="my-4 pt-5 text-muted text-center text-small">
+        <p>Copyrighted by <a href="https://getbootstrap.com/">IndieFund</a> by <a href="https://twitter.com/mdo">@roshanshahib</a>.</p>
+    </footer>
+
+    </div>
+  </body>
+  
