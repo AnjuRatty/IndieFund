@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -11,12 +12,12 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	  <link href="../../css/sample.css" rel="stylesheet">
+    <link href="../../css/sample.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="form-validation.css" rel="stylesheet">
-  </head>
+</head>
 
 <div class="container">
 
@@ -26,7 +27,7 @@
                 <a class="text-muted" href="#">About</a>
             </div>
             <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="#">IndieFund</a>
+                <a class="blog-header-logo text-dark" href="../home/index.php">IndieFund</a>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
                 <a class="text-muted" href="#">
@@ -35,8 +36,8 @@
                         <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
                     </svg>
                 </a>
-                <a class="btn btn-sm btn-transparent text-muted mx-3" href="#">Sign in</a>
-                <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+                <a class="btn btn-sm btn-transparent text-muted mx-3" href="../signIn/signin.php">Sign in</a> <a class="btn btn-sm btn-outline-secondary" href="../signUp/signup.php">Sign up</a>
+
             </div>
         </div>
     </header>
@@ -54,7 +55,7 @@
                             <label>Email or Username</label>
                             <input type="email" class="form-control" placeholder="">
                         </div> <!-- form-group end.// -->
-                    
+
                         <div class="form-group">
                             <label>Password</label>
                             <input class="form-control" type="password">
@@ -74,8 +75,8 @@
 <!--container end.//-->
 
 <footer class="footer bg-transparent">
-    <p class = "text-dark">Copyrighted by <a href="https://getbootstrap.com/">IndieFund</a> by <a href="https://twitter.com/mdo">@roshanshahib</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
+    <p class="text-dark">Copyrighted by <a href="https://getbootstrap.com/">IndieFund</a> by <a href="https://twitter.com/mdo">@roshanshahib</a>.</p>
+    <p>
+        <a href="#">Back to top</a>
+    </p>
 </footer>
