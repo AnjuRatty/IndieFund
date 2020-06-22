@@ -1,0 +1,8 @@
+{
+    "name": "anju/indie-fund",
+    "description": "indie funding site",
+    "type": "project",
+    "license": "GNU",
+    "minimum-stability": "dev",
+    "require": {}
+}
